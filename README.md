@@ -4,4 +4,4 @@ These are just a couple of simple scripts that accept a text file containing a l
 
     pip install requests
 
-...in order for these to work.  Each script tests the URL with a HEAD request to attain the appropriate datestamp.
+...in order for these to work.  Each script tests the URL with a HEAD request to attain the appropriate datestamp.  If the file date is not returned in a header, the current date (in GMT) will be substituted.
